@@ -1,0 +1,33 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+body {
+  background-color: #000;
+  color: #63b3ed;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+input, textarea, select {
+  background-color: #1a202c;
+  color: #63b3ed;
+  border-color: #4a5568;
+}
+
+input:focus, textarea:focus, select:focus {
+  outline: none;
+  border-color: #4299e1;
+}
+
+button {
+  transition: all 0.3s ease;
+}
+
+button:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 6px rgba(50, 50, 93, 0.11), 0 1px 3px rgba(0, 0, 0, 0.08);
+}
+
+.container {
+  max-width: 1200px;
+}
